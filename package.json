@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx"
+    "start": "live-server --no-browser web"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mdx-deck": "^3.0.0"
+    "live-server": "^1.2.2"
   }
 }
