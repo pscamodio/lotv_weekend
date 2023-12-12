@@ -1,0 +1,11 @@
+@keyframes tbdLoop {
+    100% {
+        font-size: 3rem;
+    }
+}
+
+.tbd {
+    color: "red";
+    font-weight: bold;
+    animation: tbdLoop 500ms infinite alternate;
+}
